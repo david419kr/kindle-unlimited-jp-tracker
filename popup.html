@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 350px;
+      padding: 10px;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #232f3e;
+    }
+    
+    .container {
+      display: flex;
+      gap: 3px; /* 버튼 사이 간격 */
+    }
+
+    #addCurrentBook {
+      width: 84%;
+    }
+
+    #checkAll {
+      width: 14%;
+    }
+
+    .button {
+      background: #ff9900;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+    
+    .button:hover {
+      background: #e68900;
+    }
+    
+    .book-list {
+      margin-top: 20px;
+      max-height: 430px;
+      overflow-y: auto;
+    }
+    
+    .book-item {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      background: #f8f9fa;
+      position: relative;
+    }
+    
+    .book-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #0066cc;
+      cursor: pointer;
+      padding-right: 50px;
+      text-decoration: underline;
+    }
+    
+    .book-title:hover {
+      color: #004499;
+    }
+    
+    .book-status {
+      font-size: 12px;
+      padding: 2px 6px;
+      border-radius: 3px;
+      display: inline-block;
+    }
+    
+    .ku-available {
+      background: #4caf50;
+      color: white;
+    }
+    
+    .ku-not-available {
+      background: #f44336;
+      color: white;
+    }
+    
+    .remove-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #fff9f9;
+      color: rgb(255, 35, 35);
+      border: 1px solid #ffcccc;
+      padding: 5px 8px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 11px;
+    }
+    
+    .remove-btn:hover {
+      background: #c82333;
+    }
+    
+    .book-meta {
+      font-size: 11px;
+      color: #666;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h3>amazon.co.jp Kindle Unlimitedトラッカー</h3>
+  </div>
+
+  <div class="container">
+    <button id="addCurrentBook" class="button">
+      このページの本を登録
+    </button>
+    <button id="checkAll" class="button">
+      ⟳
+    </button>
+  </div>
+  
+  <div id="bookList" class="book-list">
+    <!-- 책 목록이 여기에 표시됩니다 -->
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
