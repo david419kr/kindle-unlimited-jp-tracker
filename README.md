@@ -1,6 +1,11 @@
 # Amazon.co.jp Kindle Unlimited Tracker
 
-Amazon.co.jpで気になる本のKindle Unlimited登録状況を追跡するChrome拡張機能です。読みたい本がKindle Unlimitedに登録されたら通知でお知らせします。
+Amazon.co.jpで気になる本のKindle Unlimited登録状況を追跡するChrome拡張機能です。  
+読みたい本がKindle Unlimitedに登録されたら通知でお知らせします。  
+  
+<img width="400" height="616" alt="ss1" src="https://github.com/user-attachments/assets/140ec243-a1b4-40ad-bf98-5c163909e335" />
+<img width="497" height="217" alt="ss2" src="https://github.com/user-attachments/assets/91689c7d-0b4d-4f7b-bf07-bfeff37abd55" />
+
 
 ## 主な機能
 
