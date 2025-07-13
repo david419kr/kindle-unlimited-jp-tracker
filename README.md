@@ -17,6 +17,9 @@ Amazon.co.jpで気になる本のKindle Unlimited登録状況を追跡するChro
 
 ## インストール方法
 
+おススメ：[Chrome Web Store](https://chromewebstore.google.com/detail/amazoncojp-kindle-unlimit/bmjjilnmihanfkecmgkhnpighjnfeinm)でインストール  
+
+もしくは、  
 1. このリポジトリをクローンまたはダウンロード
 2. Chromeで `chrome://extensions/` を開く
 3. 右上の「デベロッパーモード」を有効にする
